@@ -616,16 +616,16 @@ body {
         content: '';
         display: block;
         clear: both; }
-      #header .inner .menuWeb #gnb li {
+      #header .inner .menuWeb #gnb > li {
         float: left; }
-        #header .inner .menuWeb #gnb li a {
+        #header .inner .menuWeb #gnb > li > a {
           display: block;
           padding: 0px 40px;
           height: 50px;
           color: #555;
           font: bold 15px/50px 'arial';
           transition: 0.5s; }
-        #header .inner .menuWeb #gnb li .sub {
+        #header .inner .menuWeb #gnb > li .sub {
           width: 1180px;
           height: 300px;
           position: absolute;
@@ -633,7 +633,7 @@ body {
           right: 0;
           background: #fff;
           display: none; }
-          #header .inner .menuWeb #gnb li .sub::before {
+          #header .inner .menuWeb #gnb > li .sub::before {
             content: '';
             display: block;
             width: 100%;
@@ -642,7 +642,7 @@ body {
             top: 0;
             left: -100%;
             background: inherit; }
-          #header .inner .menuWeb #gnb li .sub::after {
+          #header .inner .menuWeb #gnb > li .sub::after {
             content: '';
             display: block;
             width: 100%;
@@ -651,7 +651,7 @@ body {
             top: 0;
             right: -100%;
             background: inherit; }
-        #header .inner .menuWeb #gnb li:hover a {
+        #header .inner .menuWeb #gnb > li:hover > a {
           background: #555;
           color: #fff; }
     #header .inner .menuWeb .util {
