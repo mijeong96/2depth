@@ -590,7 +590,8 @@ fieldset {
 #header {
   width: 100%;
   border-bottom: 1px solid #ddd;
-  z-index: 2; }
+  z-index: 2;
+  position: relative; }
   #header .inner {
     width: 1180px;
     height: 120px;
@@ -626,7 +627,8 @@ fieldset {
           position: absolute;
           top: 51px;
           right: 0;
-          background: #fff; }
+          background: #fff;
+          display: none; }
         #header .inner .menuWeb #gnb li:hover a {
           background: #555;
           color: #fff; }
