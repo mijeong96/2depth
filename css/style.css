@@ -633,6 +633,16 @@ body {
           right: 0;
           background: #fff;
           display: none; }
+          #header .inner .menuWeb #gnb > li .sub .left {
+            width: 30%;
+            height: 100%;
+            background: lightgreen;
+            float: left; }
+          #header .inner .menuWeb #gnb > li .sub .right {
+            width: 70%;
+            height: 100%;
+            background: #fff;
+            float: right; }
           #header .inner .menuWeb #gnb > li .sub::before {
             content: '';
             display: block;
@@ -641,7 +651,7 @@ body {
             position: absolute;
             top: 0;
             left: -100%;
-            background: inherit; }
+            background: lightgreen; }
           #header .inner .menuWeb #gnb > li .sub::after {
             content: '';
             display: block;
