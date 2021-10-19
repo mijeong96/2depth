@@ -54,10 +54,22 @@ $mobile:539px;
                     float:left; 
                     a{
                         display:block; 
-                        padding:20px 40px; 
+                        padding:0px 40px; 
+                        height: 50px;
                         color:#555; 
-                        font:bold 15px/1 'arial'; 
+                        font:bold 15px/50px 'arial'; 
                         transition:0.5s; 
+                    }
+
+                    .sub {
+                        width: 1180px;
+                        height: 300px;
+                        position: absolute;
+                        top: 51px;
+                        right: 0;
+                        background: #fff;
+                        z-index: 100;
+
                     }
                     &:hover a{
                         background:#555; 
