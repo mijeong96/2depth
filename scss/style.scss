@@ -23,6 +23,7 @@ $mobile:539px;
 #header{
     width:100%; 
     border-bottom:1px solid #ddd; 
+    z-index: 2;
 
     .inner{
         width:1180px; 
@@ -68,7 +69,6 @@ $mobile:539px;
                         top: 51px;
                         right: 0;
                         background: #fff;
-                        z-index: 100;
 
                     }
                     &:hover a{
@@ -220,6 +220,7 @@ $mobile:539px;
     background:#000; 
     position:relative; 
     overflow:hidden; 
+    z-index: 1;
 
     video{
         width:100%; 
